@@ -68,7 +68,7 @@ namespace MiniTemplator;
  *   "$Include" command changed so that the command text is not copied to the output file.<br />
  */
 
-class Minitemplator
+class Engine
 {
 
     /*  public member variables --------------- */
@@ -154,7 +154,7 @@ class Minitemplator
     /*  constructor --------------------------- */
 
     /**
-     * Constructs a MiniTemplator object.
+     * Constructs an Engine object.
      */
     public function __construct()
     {
